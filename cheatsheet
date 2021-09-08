@@ -1,0 +1,17 @@
+#### DATA COLLECTION ####
+
+nmap -sV -sC -oA <ip> <outputfile>
+
+Dirb any available port 80 address
+
+### REVERSE SHELL ###
+
+https://github.com/pentestmonkey/php-reverse-shell
+
+
+### SHELL COMMANDS ###
+
+SHELL=/bin/bash script -q /dev/null
+
+Explanation for /dev/null
+https://askubuntu.com/questions/306047/what-does-the-script-dev-null-do
