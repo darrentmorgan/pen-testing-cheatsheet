@@ -10,6 +10,12 @@ python -c 'import pty; pty.spawn("/bin/sh")'
 
 https://netsec.ws/?p=337
 
+### STORE FILES IN MEM
+
+/dev/shm
+
+Upload any fikes to Ram disk that will clear on reboot.
+
 ### REVERSE SHELL ###
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
