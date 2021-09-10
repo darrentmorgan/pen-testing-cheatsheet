@@ -4,6 +4,12 @@ nmap -sV -sC -oA <ip> <outputfile>
 
 Dirb any available port 80 address
 
+### TTY SHELL
+
+python -c 'import pty; pty.spawn("/bin/sh")'
+
+https://netsec.ws/?p=337
+
 ### REVERSE SHELL ###
 
 https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/Methodology%20and%20Resources/Reverse%20Shell%20Cheatsheet.md
