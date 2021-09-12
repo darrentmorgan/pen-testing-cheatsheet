@@ -1,16 +1,16 @@
-### DATA COLLECTION 
+## DATA COLLECTION 
 
 ```nmap -sV -sC -oA <ip> <outputfile>```
 
 Dirb any available port 80 address
 
-# TTY SHELL
+### TTY SHELL
 
 ```python -c 'import pty; pty.spawn("/bin/sh")'```
 
 https://netsec.ws/?p=337
 
-# IPPSEC explains terminal upgrades tty
+### IPPSEC explains terminal upgrades tty
 
 CTRL + Z (Background process)
 stty raw -echo (local term don't process tabs, send through to terminal)
