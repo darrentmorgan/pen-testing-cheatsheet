@@ -19,6 +19,10 @@ fg (foreground shell)
 
 https://youtu.be/CYeVUmOar3I?t=789
 
+### PRIVESC 
+
+https://github.com/carlospolop/PEASS-ng/blob/master/linPEAS/linpeas.sh
+
 ### STORE FILES IN MEM
 
 /dev/shm
