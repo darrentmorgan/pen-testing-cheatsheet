@@ -27,7 +27,7 @@ https://github.com/carlospolop/PEASS-ng/blob/master/linPEAS/linpeas.sh
 
 /dev/shm
 
-Upload any fikes to Ram disk that will clear on reboot.
+Upload any files to Ram disk that will clear on reboot.
 
 ### REVERSE SHELL ###
 
